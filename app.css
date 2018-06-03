@@ -19,3 +19,37 @@
 .cell.enter .poster {
     transform: scale(1);
 }
+
+.linear .row .cell .poster {
+    transition-timing-function: linear;
+}
+
+.easeIn .row .cell .poster {
+    transition-timing-function: ease-in;
+}
+
+.easeOut .row .cell .poster {
+    transition-timing-function: ease-out;
+}
+
+.easeInOut .row .cell .poster {
+    transition-timing-function: ease-in-out;
+}
+
+.bezier .row .cell .poster {
+    transition-timing-function: cubic-bezier(.31,.92,.57,1.47);
+}
+
+#controlForm {
+    width: 400px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.inline-form-group {
+    margin: 0.8em 1.5em;
+}
+
+#columns .slider-selection {
+    background: #BABABA;
+}
