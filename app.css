@@ -1,0 +1,21 @@
+.row {
+    clear: both;
+}
+
+.cell {
+    width: 128px;
+    height: 128px;
+    float: left;
+    margin: 8px 12px;
+}
+
+.cell .poster {
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: transform 0.4s;
+}
+
+.cell.enter .poster {
+    transform: scale(1);
+}
