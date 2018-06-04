@@ -1,5 +1,6 @@
 .row {
     clear: both;
+    display: inline-block;
 }
 
 .cell {
@@ -41,15 +42,27 @@
 }
 
 #controlForm {
-    width: 400px;
     padding-top: 2em;
     padding-bottom: 2em;
+    text-align: center;
 }
 
 .inline-form-group {
     margin: 0.8em 1.5em;
 }
 
+.auto-margin {
+    margin: auto;
+}
+
 #columns .slider-selection {
     background: #BABABA;
+}
+
+#contentArea {
+    text-align: center;
+}
+
+#runAnimationBtn {
+    margin-top: 1.25em;
 }
